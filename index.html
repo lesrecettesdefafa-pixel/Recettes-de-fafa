@@ -6,6 +6,10 @@
 @media(max-width:730px){main{padding:18px 12px 40px}.layout{grid-template-columns:1fr;gap:16px}.card{padding:17px}h1{font-size:24px}.mark{font-size:28px}.settings{gap:9px}header{margin-bottom:20px}.actions button{flex:1}}
 </style></head><body><main>
 <header><div class="mark">fafa</div><div><div class="eyebrow">Les recettes de Fafa</div><h1>Studio vidéo <em>Pixel</em></h1><div class="sub">Une photo. Un geste. Une vidéo de cuisine.</div></div></header>
+<section class="card" aria-labelledby="hf-account-title" style="margin-bottom:22px"><h2 id="hf-account-title">Ton compte Hugging Face</h2>
+<p class="help">Pour utiliser ton compte et son quota disponible, connecte-toi puis ouvre le moteur directement dans le même navigateur.</p>
+<div class="actions"><a class="button" href="https://huggingface.co/login" target="_blank" rel="noopener">Se connecter à Hugging Face</a><a class="button" href="https://huggingface.co/spaces/cbensimon/wan2-2-fp8da-aoti-preview2" target="_blank" rel="noopener">Ouvrir Wan avec mon compte</a></div>
+<p class="help">Dans Wan, importe ta photo et colle le geste choisi ci-dessous. La connexion reste chez Hugging Face : le bouton « Animer ma photo » de ce studio continue d’utiliser le relais sans connexion personnelle. L’accès gratuit reste soumis aux quotas et à la disponibilité.</p></section>
 <div class="layout">
 <section class="card"><h2>1. Prépare ton animation</h2><span class="tag">Format vertical 9:16</span>
 <label for="photo">Ta photo culinaire</label><input id="photo" type="file" accept="image/png,image/jpeg,image/webp">
@@ -75,4 +79,5 @@ $('generate').onclick=async()=>{if(busy||!photoFile)return;busy=true;ready();$('
  }catch(e){status(e.name==='AbortError'?'Attente arrêtée. Le calcul déjà soumis peut continuer côté moteur ; aucune relance automatique.':'Animation indisponible : '+e.message+'\nAucune vidéo n’est annoncée comme réussie sans fichier reçu.',true)}finally{clearTimeout(timer);busy=false;$('cancel').hidden=true;controller=null;ready()}};
 (async()=>{db=await dbOpen();try{const p=JSON.parse(localStorage.getItem(KEY)||'null');if(p){$('prompt').value=p.prompt||'';if(['2','3.5','4.5'].includes(p.duration))$('duration').value=p.duration;if(['4','6','8','12'].includes(p.steps))$('steps').value=p.steps}}catch{}const img=await get('photo');if(typeof img==='string')await accept(new File([await (await fetch(img)).blob()],'restored.jpg',{type:'image/jpeg'}));await history();ready()})();
 </script></body></html>
+
 
