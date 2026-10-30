@@ -27,7 +27,7 @@ export default {
    if(req.method==="GET"&&u.pathname==="/download"){
     const target=new URL(u.searchParams.get("url")||"",HF);
     if(target.origin!==HF||!target.pathname.startsWith("/gradio_api/file=")||target.username||target.password) return cors(json({error:"Adresse vidéo non autorisée."},400),origin);
-    const upstream=await checkedFetch(target.toString(),{headers:req.headers.has("Range")?{Range:req.headers.get("Range")}:{},redirect:"error"});
+    const upstream=await checkedFetch(target.toString(),{headers:req.headers.has("Range")?{Range:req.headers.get("Range")}:{},redirect:"manual"});
     const h=new Headers({"Content-Type":"video/mp4","Cache-Control":"no-store","Content-Disposition":'attachment; filename="fafa-pixel-9x16.mp4"',"X-Content-Type-Options":"nosniff"});
     for(const n of ["Content-Length","Content-Range","Accept-Ranges"])if(upstream.headers.has(n))h.set(n,upstream.headers.get(n));
     return cors(new Response(upstream.body,{status:upstream.status,headers:h}),origin);
