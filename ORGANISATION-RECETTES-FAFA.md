@@ -29,8 +29,8 @@ Pour chaque nouvelle recette, créer exactement les six sous-dossiers. Après pu
 
 ## Les raccourcis à conserver sur Samsung
 
-- Studio Fafa NiftyVid : https://fafa-niftyvid.frostydaisy5.chatgpt.site/
-- Sauvegardes et code du studio : https://github.com/fardje2905-ux/Recettes-de-fafa/tree/main/outils-video
+- Studio Fafa Pixel : https://lesrecettesdefafa-pixel.github.io/Recettes-de-fafa/
+- Sauvegardes et code du studio : https://github.com/lesrecettesdefafa-pixel/Recettes-de-fafa/tree/main/outils-video
 - Ne pas confondre un lien localhost:8158 (serveur local temporaire) et un lien public stable.
 
 ## Etat des projets (à confirmer à l'archivage)
@@ -49,3 +49,4 @@ Pour chaque nouvelle recette, créer exactement les six sous-dossiers. Après pu
 - [ ] Seulement après vérification, aider à libérer la place sur Samsung.
 
 Cette page est une procédure de rangement ; **elle ne déploie aucun serveur vidéo**.
+
