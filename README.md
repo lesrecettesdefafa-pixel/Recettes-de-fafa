@@ -15,6 +15,10 @@ Le fichier `index.html` (minuscules) est le studio Pixel. `Index.html` conserve 
 - Origines autorisées : domaine GitHub Pages Pixel et domaine du relais Pixel. Aucun proxy vers une URL arbitraire.
 - Sauvegardes du navigateur séparées : préfixes `fafa-pixel-` ; projets JSON exportables ; photos et clips dans IndexedDB.
 
+## Validation du 30 octobre 2026
+
+[Compte rendu détaillé](RAPPORT-PIXEL.md). Site public, relais, gestes et sauvegardes vérifiés. **Génération et téléchargement MP4 non validés de bout en bout** : le Space a interrompu les derniers essais sans préciser la cause. Aucun abonnement souscrit.
+
 ## Utilisation
 
 1. Importer une photo et vérifier son recadrage 9:16 (432 × 768).
