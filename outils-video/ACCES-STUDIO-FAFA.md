@@ -1,15 +1,16 @@
-# Studio vidéo Fafa
+# Studio vidéo Fafa Pixel
 
-**Ouvrir le studio : https://fafa-niftyvid.frostydaisy5.chatgpt.site**
+**Ouvrir le studio Pixel : https://lesrecettesdefafa-pixel.github.io/Recettes-de-fafa/**
 
-Application privée, accessible avec le compte ChatGPT propriétaire.
+Application publique indépendante. Relais Pixel : https://fafa-pixel-relais.frostydaisy5.chatgpt.site
 
-1. Ajouter une photo (verticale 9:16 pour TikTok).
-2. Décrire un geste simple ou choisir un exemple.
-3. Animer la photo puis télécharger le MP4.
+1. Ajouter une photo et vérifier son recadrage vertical 9:16.
+2. Décrire un geste simple ou choisir un bouton de cuisine.
+3. Animer la photo puis télécharger le MP4 réellement reçu.
 
-Clips de 2 à 4,5 secondes. Le calcul dépend du Space Hugging Face public de Wan 2.2 et de sa disponibilité.
+Clips de 2 à 4,5 secondes. Le calcul dépend du Space public Wan 2.2 et de sa disponibilité. Une copie du site ne crée pas de quota GPU supplémentaire.
 
-Le studio et son relais vidéo sont déployés séparément de l'application recettes. Les copies originales niftyvid-sauvegarde et niftyvid-evolution restent conservées ici. La version personnalisée publiée est versionnée dans le dépôt source associé au Site ChatGPT.
+Le studio publié est le fichier `index.html` à la racine. Le relais est versionné dans `pixel-relay-worker.js` et publié séparément. Les sauvegardes Pixel sont séparées de celles des autres studios. Les copies NiftyVid originales, licences et historique restent conservés dans ce dépôt.
 
-Validation du 21 octobre 2026 : génération via le relais, réception du résultat SSE, téléchargement d'un MP4 H.264 et restauration du texte après rechargement vérifiés. Publication du Site réussie.
+Le studio original https://fafa-niftyvid.frostydaisy5.chatgpt.site/ reste distinct et inchangé. Les validations du studio original ne sont pas présentées comme des validations Pixel. Consulte le README racine pour la configuration actuelle.
+
