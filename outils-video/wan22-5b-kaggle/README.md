@@ -1,6 +1,6 @@
 # FAFA — Génération vidéo IA gratuite (Kaggle)
 
-Ce dossier contient un vrai notebook Python pour lancer [Wan2GP](https://github.com/DeepBeepMeep/Wan2GP) et animer une photo en vidéo MP4 avec les GPU de Kaggle.
+Ce dossier contient un vrai notebook Python pour lancer [Wan2GP](https://github.com/deepbeepmeep/WanGP) et animer une photo en vidéo MP4 avec les GPU de Kaggle.
 
 ## Ouvrir depuis Kaggle sans téléchargement
 
@@ -11,7 +11,7 @@ Le précédent lien direct `kaggle.com/kernels/welcome?src=...` peut renvoyer «
 3. Coller l'adresse du notebook FAFA :
 
 ```text
-https://github.com/fardje2905-ux/Recettes-de-fafa/blob/main/outils-video/wan22-5b-kaggle/Fafa_Wan22_5B_Kaggle.ipynb
+https://github.com/lesrecettesdefafa-pixel/Recettes-de-fafa/blob/main/outils-video/wan22-5b-kaggle/Fafa_Wan22_5B_Kaggle.ipynb
 ```
 
 On peut aussi [télécharger le fichier .ipynb sur GitHub](./Fafa_Wan22_5B_Kaggle.ipynb) puis l'importer dans Kaggle via **Upload**.
@@ -39,4 +39,5 @@ Kaggle impose des limites de GPU gratuit et la génération peut rester lente. C
 
 ## Crédits et licence
 
-Notebook adapté depuis [Square-Zero-Labs/Wan2GP-on-Kaggle](https://github.com/Square-Zero-Labs/Wan2GP-on-Kaggle), sous licence Apache 2.0 ; code du moteur [DeepBeepMeep/Wan2GP](https://github.com/DeepBeepMeep/Wan2GP). La licence de l'original se trouve sur [GitHub](https://github.com/Square-Zero-Labs/Wan2GP-on-Kaggle/blob/main/LICENSE).
+Notebook adapté depuis [Square-Zero-Labs/Wan2GP-on-Kaggle](https://github.com/Square-Zero-Labs/Wan2GP-on-Kaggle), sous licence Apache 2.0 ; code du moteur [DeepBeepMeep/Wan2GP](https://github.com/deepbeepmeep/WanGP). La licence de l'original se trouve sur [GitHub](https://github.com/Square-Zero-Labs/Wan2GP-on-Kaggle/blob/main/LICENSE).
+
